@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cv</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/icon_like.ico">
+  <link rel="icon" href="./assets/icon_like.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body font-family: 'Roboto' , sans-serif; min-height: 100vh; margin: 0; padding: 0;>
+<body>
   <header class="header">
     <div class="container header-container">
       <nav class="nav">
@@ -45,7 +45,8 @@
         <h2 class="section-title">Contacts</h2>
         <ul class="section-list">
           <li class="section-item contacts-item"> Belarus, Mogilev</li>
-          <li class="section-item contacts-item"> Email: <a href="alloc1988@gmail.com" title="email">alloc1988@gmail.com</a></li>
+          <li class="section-item contacts-item"> Email: <a href="alloc1988@gmail.com"
+              title="email">alloc1988@gmail.com</a></li>
           <li class="section-item contacts-item"> Discord: allocmog#6716</li>
           <li class="section-item contacts-item"> Tel: +375298479891</li>
         </ul>
@@ -81,14 +82,14 @@
     </div>
   </main>
 
-
   <footer class="footer">
     <div class="container footer-container">
-      <div>© 2022 &nbsp; <a href="https://github.com/Allocmog" class="github nav-link">Yury Aliakseyenka</a>&nbsp;&nbsp;&nbsp;for &nbsp;<a
-          href="https://rs.school">RS School</a></p>
+      <div>© 2022 &nbsp; <a href="https://github.com/Allocmog" class="github nav-link">Yury
+          Aliakseyenka</a>&nbsp;&nbsp;&nbsp;for &nbsp;<a
+          href="https://rs.school"><img src="https://rs.school/images/rs_school_js.svg" width="100" height="120" alt="" class="section-profile-logo"></a>
       </div>
     </div>
   </footer>
 </body>
-https://rs.school/images/rs_school_js.svg
+
 </html>
