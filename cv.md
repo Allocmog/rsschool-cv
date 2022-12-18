@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -36,7 +35,7 @@
   <main class="main">
     <div class="container main-container">
       <section class="section section-profile" id="profile">
-        <img src="./assets/img/YA.jpg" alt="" class="section-profile-logo">
+        <img src="https://i.ibb.co/JsCwP7S/YA.jpg" alt="" class="section-profile-logo">
         <div class="section-profile-title">
           <h1 class="section-title main-title">Yury Aliakseyenka</h1>
         </div>
