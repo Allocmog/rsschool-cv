@@ -1,12 +1,11 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>cv</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="icon" href="./assets/icon_like.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
@@ -16,21 +15,13 @@
   <header class="header">
     <div class="container header-container">
       <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
-        </ul>
-      </nav>
-      <div class="toggle">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
+<a href="#contacts" class="nav-link">Contacts</a>
+<a href="#summary" class="nav-link">Summary</a>
+<a href="#skills" class="nav-link">Skills</a>
+<a href="#code" class="nav-link">Code</a>
+<a href="#experience" class="nav-link">Experience</a>
+<a href="#education" class="nav-link">Education</a>
+<a href="#english" class="nav-link">English</a>
     </div>
   </header>
   <main class="main">
@@ -86,7 +77,7 @@
     <div class="container footer-container">
       <div>© 2022 &nbsp; <a href="https://github.com/Allocmog" class="github nav-link">Yury
           Aliakseyenka</a>&nbsp;&nbsp;&nbsp;for &nbsp;<a
-          href="https://rs.school"><img src="https://rs.school/images/rs_school_js.svg" width="100" height="120" alt="" class="section-profile-logo"></a>
+          href="https://rs.school"><img src="https://rs.school/images/rs_school_js.svg" width="150" height="30" alt="" class="section-profile-logo"></a>
       </div>
     </div>
   </footer>
