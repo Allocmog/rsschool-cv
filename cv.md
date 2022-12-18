@@ -16,13 +16,14 @@
   <header class="header">
     <div class="container header-container">
       <nav class="nav">
-<a href="#contacts" class="nav-link">Contacts</a>
-<a href="#summary" class="nav-link">Summary</a>
-<a href="#skills" class="nav-link">Skills</a>
-<a href="#code" class="nav-link">Code</a>
-<a href="#experience" class="nav-link">Experience</a>
-<a href="#education" class="nav-link">Education</a>
-<a href="#english" class="nav-link">English</a>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
         </ul>
       </nav>
       <div class="toggle">
