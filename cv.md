@@ -1,26 +1,94 @@
-<b>Name:</b>
-<ul>Yury Aliakseyenka</ul>
+<!DOCTYPE html>
+<html lang="en">
 
-<b>Contacts:</b>
-<ul>Mogilev, Belarus</ul>
-<ul>E-mail: alloc_@mail.ru</ul>
-<ul>Discord: allocmog#6716</ul>
-<ul>tel: +375298479891</ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icon_like.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
 
-<b>Personal qualities:</b>
-<ul>analytical thinking, sociability, sociability, efficiency, decency, ability to learn quickly</ul>
+<body font-family: 'Roboto' , sans-serif; min-height: 100vh; margin: 0; padding: 0;>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="./assets/img/YA.jpg" alt="" class="section-profile-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Yury Aliakseyenka</h1>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item"> Belarus, Mogilev</li>
+          <li class="section-item contacts-item"> Email: <a href="alloc1988@gmail.com" title="email">alloc1988@gmail.com</a></li>
+          <li class="section-item contacts-item"> Discord: allocmog#6716</li>
+          <li class="section-item contacts-item"> Tel: +375298479891</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>Analytical thinking, sociability, sociability, efficiency, decency, ability to learn quickly.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <p>Nothing yet</p>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre">
+          <code>function multiply(a, b) {
+              console.multiply(a, b);
+              return a * b;
+              }</code></pre>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <p>CV for <a href="https://rs.school"> RS School</a></p>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>I'm just learning programming</p>
+      </section>
+      <section class="section section-english" id="english">
+        <h2 class="section-title">English</h2>
+        <p> A2</p>
+      </section>
+    </div>
+  </main>
 
-<b>Programming skills:</b>
-<ul>nothing yet</ul>
 
-<b>Code example:</b>
-<ul>const multiply = (a, b) => a * b</ul>
-
-<b>Work experience:</b>
-<ul>I'm just learning programming</ul>
-
-<b>Education:</b>
-<ul>just learning</ul>
-
-<b>English level:</b>
-<ul>A2</ul>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022 &nbsp; <a href="https://github.com/Allocmog" class="github nav-link">Yury Aliakseyenka</a>&nbsp;&nbsp;&nbsp;for &nbsp;<a
+          href="https://rs.school">RS School</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+https://rs.school/images/rs_school_js.svg
+</html>
